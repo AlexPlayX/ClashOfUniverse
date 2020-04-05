@@ -302,8 +302,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   back: {fileID: 1201508559}
-  accept: {fileID: 620903642}
-  input: {fileID: 2763052}
+  submit: {fileID: 620903642}
+  nameField: {fileID: 2763052}
 --- !u!1 &32984268
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Name
 --- !u!222 &111592070
 CanvasRenderer:
   m_ObjectHideFlags: 0

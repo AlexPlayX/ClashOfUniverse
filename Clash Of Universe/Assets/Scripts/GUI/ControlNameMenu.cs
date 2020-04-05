@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -6,40 +8,42 @@ using UnityEngine.EventSystems;
 
 public class ControlNameMenu : MonoBehaviour
 {
-    public Button back, accept;
-    public InputField input;
+    public Button back, submit;
+    public InputField nameField;
     private EventSystem eventSystem;
     void Start()
     {
         eventSystem = EventSystem.current;
         back.onClick.AddListener(() => ButtonClicked(1));
-        accept.onClick.AddListener(() => ButtonClicked(2));
+        submit.onClick.AddListener(() => ButtonClicked(2));
     }
     void Update()
     {
-        if (input.isFocused && Input.GetKey(KeyCode.Return))
+        if (nameField.isFocused && Input.GetKey(KeyCode.Return))
         {
-            eventSystem.SetSelectedGameObject(accept.gameObject);
+            eventSystem.SetSelectedGameObject(submit.gameObject);
         }
     }
-    void ButtonClicked(int button)
+    void ButtonClicked(int buttonNo)
     {
-        Debug.Log("Button clicked = " + button);
-        switch (button)
+        Debug.Log("Button clicked = " + buttonNo);
+        switch (buttonNo)
         {
             case 1:
                 {
-                    SceneManager.LoadScene("ChooseShip", LoadSceneMode.Single);
+                    SceneManager.LoadScene("ShipSelect", LoadSceneMode.Single);
                 }; break;
             case 2:
                 {
-                    if (input.text != "")
+                    if (nameField.text != "")
                     {
                         Cursor.visible = false;
+                        GameManager.Instance.SetPlayerName(nameField.text);
+                        //MusicManager.Instance.PlayGameplayMusic();
                         SceneManager.LoadScene("GameProcess", LoadSceneMode.Single);
                     }
                     else
-                        eventSystem.SetSelectedGameObject(input.gameObject);
+                        eventSystem.SetSelectedGameObject(nameField.gameObject);
                 }; break;
         }
     }

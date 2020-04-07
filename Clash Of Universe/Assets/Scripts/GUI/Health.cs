@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    private RectTransform hp;
+    private RectTransform bar;
     // Start is called before the first frame update
     void Start()
     {
-        hp = GameObject.Find("hp").GetComponent<RectTransform>();
-        hp.localScale = new Vector3(1f, 1f);
+        bar = GameObject.Find("Panel").GetComponent<RectTransform>();
+        bar.localScale = new Vector3(1f, 1f);
     }
     public void SetHP(float percentHP)
     {
-        hp.localScale = new Vector3(1f, percentHP);
+        bar.localScale = new Vector3(1f, percentHP);
     }
 }

@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/Марина/Desktop/Новая папка/Clash Of Universe.exe
+C:/Users/Марина/Desktop/тесттт/Clash Of Universe.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Settings.unity
@@ -126,15 +126,16 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
-1ecf5263c9cb4ce587a544ac33a70ab3 Assembly-CSharp.dll:.Player
+ddda5b6722fe54bdb056b1ac517a3d6b Assembly-CSharp.dll:.Player
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 306ce4b0929fbd320ac2e81c0fb1c2f4 Assembly-CSharp.dll:.ControlRecordsMenu
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.PSDestroy
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Health
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
-9b3e511b219e015d3c27493fe581ef8c Assembly-CSharp.dll:.Objects
+2c1e7412f6e3fd3fc49c71b45d8078ab Assembly-CSharp.dll:.Objects
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 1dcb82730d983b77cec736c6ef19f814 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -182,4 +183,5 @@ c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 201ae5a417a8609543a5d7ee9fc2ec20 Assembly-CSharp.dll:.ExampleShipControl
 537634f061cd7b1b6d9ba05fb98ba91e Assembly-CSharp.dll:.ParallaxLayer
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Health
+4c39f81e7c337528db8e6348c2e803d8 Assembly-CSharp.dll:.Enemy
+7d4a94a732ebb4a452a7bbffe0c96d09 Assembly-CSharp.dll:.Univ

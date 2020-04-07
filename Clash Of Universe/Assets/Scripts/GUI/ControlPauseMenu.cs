@@ -36,13 +36,13 @@ public class ControlPauseMenu : MonoBehaviour
                     pause.SetActive(false);
                     Time.timeScale = 1;
                     Objects.isPaused = false;
-                    
+                    //Bron4.Enable = true;
                 }; break;
             case 2:
                 {
                     Objects.isPaused = false;
                     Time.timeScale = 1;
-                   
+                    //Bron4.Enable = true;
                     //MusicManager.Instance.PlayMenuMusic();
                     SceneManager.LoadScene("Menu", LoadSceneMode.Single);
                 }; break;

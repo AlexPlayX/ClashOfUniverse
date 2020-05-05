@@ -28,3 +28,50 @@
 подобного рода приложений. Всем функционалом приложения сможет воспользоваться любой пользователь, что говорит о доступности приложения. Все функуции видны на текущем экране, т.е. нет такие функций которые скрыты либо недоступны.
 
 ### Пути улучшения UI/UX
+
++ Привести все элементы приложения к единому дизайну.
++ Привести в порядок все элементы меню. Исключить возможность разброса элементов меню по всему экрану.
++ Исключить "столпотворение" в одном месте экрана элементов панели во время игрового процесса. 
+
+### Сравнение "До/После"
+
+  1. Привести все элементы приложения к единому дизайну.
+
+**До**
+
+ ![](https://github.com/Shalimo/ClashOfUniverse/blob/master/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/UX/Design%20before.PNG)
+
+
+**После**
+
+ ![](https://github.com/Shalimo/ClashOfUniverse/blob/master/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/UX/design%20after.PNG)
+
+ ##
+  2. Привести в порядок все элементы меню. Исключить возможность разброса элементов меню по всему экрану.
+
+**До**
+
+ ![](https://github.com/Shalimo/ClashOfUniverse/blob/master/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/UX/elements%20before.PNG)
+ 
+ 
+
+  ![](https://github.com/Shalimo/ClashOfUniverse/blob/master/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/UX/elements%20settings%20before.PNG)
+
+
+**После**
+
+ ![](https://github.com/Shalimo/ClashOfUniverse/blob/master/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/UX/elements%20after.PNG)
+ 
+  ![](https://github.com/Shalimo/ClashOfUniverse/blob/master/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/UX/elements%20settings%20after.PNG)
+
+ ##
+  3. Исключить "столпотворение" в одном месте экрана элементов панели во время игрового процесса. 
+
+**До**
+
+ ![](https://github.com/Shalimo/ClashOfUniverse/blob/master/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/UX/gameproc%20before.PNG)
+
+
+**После**
+
+ ![](https://github.com/Shalimo/ClashOfUniverse/blob/master/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B/UX/gameproc%20after.PNG)
